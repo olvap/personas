@@ -1,0 +1,8 @@
+Description:
+    Explain the generator
+
+Example:
+    rails generate personas_active_admin Thing
+
+    This will create:
+        what/will/it/create
