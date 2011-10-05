@@ -3,5 +3,7 @@ class PersonasActiveAdminGenerator < Rails::Generators::Base
 
   def copy  
     copy_file "people.rb", "app/admin/personas/people.rb"  
+    copy_file "person.rb", "app/models/person.rb"
+    copy_file "address.rb", "app/models/address.rb"
   end  
 end
