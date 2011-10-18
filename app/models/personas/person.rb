@@ -1,5 +1,7 @@
 module Personas
   class Person < ActiveRecord::Base
+
+    has_paper_trail
     # FIX: cuando se solucione el problema de rails.
     def self.table_name
       "personas_people"
